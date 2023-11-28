@@ -2,6 +2,13 @@
 
 The goal of this project is to run a webserver that accepts user image uploads, and converts them into a variety of sizes.
 
+## Getting Started
+1. Clone this repository to your machine
+1. `npm i` to install dependencies
+1. Install imagemagick (not the node dependency, the cli tool): `brew install imagemagick`
+1. Run the server with `node server.js`
+1. Send a request like so: ![sample request in postman](sample-request.png)
+
 ## Routes
 
 `POST /upload`: 
